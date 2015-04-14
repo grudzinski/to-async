@@ -33,13 +33,12 @@ asyncFunc(false, cb);
 
 console.log('After calling to asyncFunc');
 
-// 
+// Target function will be runned in next loop using setImmediate
 
-var asyncImmediatedFunc = toAsync(syncFunc, true);
+var asyncNextLoopFunc = toAsync(syncFunc, true);
 
-asyncImmediatedFunc(true, cb);
-asyncImmediatedFunc(false, cb);
+asyncNextLoopFunc(true, cb);
+asyncNextLoopFunc(false, cb);
 
 console.log('After calling to asyncImmediatedFunc');
-
 ```
