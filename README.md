@@ -40,5 +40,5 @@ var asyncNextLoopFunc = toAsync(syncFunc, true);
 asyncNextLoopFunc(true, cb);
 asyncNextLoopFunc(false, cb);
 
-console.log('After calling to asyncImmediatedFunc');
+console.log('After calling to asyncNextLoopFunc');
 ```
