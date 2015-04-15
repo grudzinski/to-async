@@ -1,5 +1,5 @@
 # to-async
-A Node.js util to converts a synchronous function to an asynchronous function
+Converts a synchronous function to an asynchronous function
 
 ##Install
 ```sh
