@@ -13,6 +13,7 @@ npm install to-async --save
 * ``cbFirst`` specifies callback position in arguments, ``true`` first and ``false`` last
 * ``inNextFoop`` specifies when to run target function
 
+### Example
 ```js
 var toAsync = require('to-async');
 
