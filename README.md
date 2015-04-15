@@ -1,9 +1,9 @@
-to-async
-========
+# to-async
 
 Converts a synchronous function to an asynchronous function
 
-##Install
+## Install
+
 ```sh
 npm install to-async --save
 ```
@@ -16,6 +16,7 @@ npm install to-async --save
 * ``inNextFoop`` specifies when to run target function
 
 ### Example
+
 ```js
 var toAsync = require('to-async');
 
