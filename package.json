@@ -1,6 +1,6 @@
 {
   "name": "to-async",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "Convert a synchronous function to an asynchronous function",
   "main": "index.js",
   "repository": {
