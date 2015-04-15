@@ -1,4 +1,6 @@
-# to-async
+to-async
+========
+
 Converts a synchronous function to an asynchronous function
 
 ##Install
